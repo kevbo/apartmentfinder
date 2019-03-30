@@ -9,7 +9,7 @@ name = "pypi"
 
 tmuxp = "*"
 coverage = "*"
-"pep8" = "*"
+pep8 = "*"
 jupyter = "*"
 black = "*"
 
@@ -17,6 +17,7 @@ black = "*"
 [packages]
 
 django = "*"
+pyyaml = ">=4.2b1"
 
 
 [requires]
