@@ -1,0 +1,19 @@
+session_name: apartmentfinder
+start_directory: ./
+windows:
+  - window_name: Git/BPython
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - make test
+        - make outdated
+        - make shell
+        - git init
+        - git status .
+        focus: true
+      - shell_command:
+        - make serve
+  - window_name: vim
+    panes:
+      - shell_command:
+        - vim .
